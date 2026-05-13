@@ -82,17 +82,15 @@ const TampilanLogin = () => {
             {isLoading ? "Loading..." : "login"}
           </button>
 
-          {/* --- AWAL PENAMBAHAN DARI GAMBAR --- */}
-          <br /> <br />
+          <br />
+          <br />
           <button
-            type="button" // Gunakan type="button" agar tidak men-trigger handleSubmit secara tidak sengaja
-            onClick={() => signIn("google", { callbackUrl, redirect: false })}
+            type="button"
+            onClick={() => signIn("google", { callbackUrl,redirect: false })}
             className={style.login__form_item__button}
-            disabled={isLoading}
           >
-            {isLoading ? "Loading..." : "sign in with google"}
+            Sign in with Google
           </button>
-          {/* --- AKHIR PENAMBAHAN DARI GAMBAR --- */}
         </form>
 
         <br />
