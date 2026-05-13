@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Product Page when data has loaded renders product list correctly (snapshot) 1`] = `
+<div>
+  <div>
+    <div
+      class="produk"
+      data-testid="tampilan-produk"
+    >
+      <h1
+        class="produk__title"
+        data-testid="produk-title"
+      >
+        Daftar Produk
+      </h1>
+      <div
+        class="produk__content"
+        data-testid="produk-content"
+      >
+        <a
+          class="produk__content__item"
+          data-testid="produk-item-1"
+          href="/produk/1"
+        >
+          <div
+            class="produk__content__item__image"
+          >
+            <img
+              alt="Produk A"
+              height="200"
+              src="/img/a.jpg"
+              width="200"
+            />
+          </div>
+          <h4
+            class="produk__content__item__name"
+          >
+            Produk A
+          </h4>
+          <p
+            class="produk__content__item__category"
+          >
+            Kategori X
+          </p>
+          <p
+            class="produk__content__item__price"
+          >
+            Rp 
+            50.000
+          </p>
+        </a>
+        <a
+          class="produk__content__item"
+          data-testid="produk-item-2"
+          href="/produk/2"
+        >
+          <div
+            class="produk__content__item__image"
+          >
+            <img
+              alt="Produk B"
+              height="200"
+              src="/img/b.jpg"
+              width="200"
+            />
+          </div>
+          <h4
+            class="produk__content__item__name"
+          >
+            Produk B
+          </h4>
+          <p
+            class="produk__content__item__category"
+          >
+            Kategori Y
+          </p>
+          <p
+            class="produk__content__item__price"
+          >
+            Rp 
+            75.000
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Product Page when data is loading renders skeleton while loading (snapshot) 1`] = `
+<div>
+  <div>
+    <div
+      class="produk"
+      data-testid="tampilan-produk"
+    >
+      <h1
+        class="produk__title"
+        data-testid="produk-title"
+      >
+        Daftar Produk
+      </h1>
+      <div
+        class="produk__content"
+        data-testid="produk-content"
+      >
+        <div
+          class="produk__content__skeleton"
+          data-testid="produk-skeleton"
+        >
+          <div
+            class="produk__content__skeleton__image"
+          />
+          <div
+            class="produk__content__skeleton__name"
+          />
+          <div
+            class="produk__content__skeleton__category"
+          />
+          <div
+            class="produk__content__skeleton__price"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

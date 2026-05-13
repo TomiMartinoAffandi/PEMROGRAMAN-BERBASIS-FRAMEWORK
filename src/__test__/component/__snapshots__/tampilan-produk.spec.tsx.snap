@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TampilanProduk Component when products are provided renders product list (snapshot) 1`] = `
+<div>
+  <div
+    class="produk"
+    data-testid="tampilan-produk"
+  >
+    <h1
+      class="produk__title"
+      data-testid="produk-title"
+    >
+      Daftar Produk
+    </h1>
+    <div
+      class="produk__content"
+      data-testid="produk-content"
+    >
+      <a
+        class="produk__content__item"
+        data-testid="produk-item-1"
+        href="/produk/1"
+      >
+        <div
+          class="produk__content__item__image"
+        >
+          <img
+            alt="Sepatu Lari"
+            height="200"
+            src="/img/sepatu.jpg"
+            width="200"
+          />
+        </div>
+        <h4
+          class="produk__content__item__name"
+        >
+          Sepatu Lari
+        </h4>
+        <p
+          class="produk__content__item__category"
+        >
+          Olahraga
+        </p>
+        <p
+          class="produk__content__item__price"
+        >
+          Rp 
+          250.000
+        </p>
+      </a>
+      <a
+        class="produk__content__item"
+        data-testid="produk-item-2"
+        href="/produk/2"
+      >
+        <div
+          class="produk__content__item__image"
+        >
+          <img
+            alt="Tas Sekolah"
+            height="200"
+            src="/img/tas.jpg"
+            width="200"
+          />
+        </div>
+        <h4
+          class="produk__content__item__name"
+        >
+          Tas Sekolah
+        </h4>
+        <p
+          class="produk__content__item__category"
+        >
+          Perlengkapan
+        </p>
+        <p
+          class="produk__content__item__price"
+        >
+          Rp 
+          120.000
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TampilanProduk Component when products list is empty renders skeleton placeholder (snapshot) 1`] = `
+<div>
+  <div
+    class="produk"
+    data-testid="tampilan-produk"
+  >
+    <h1
+      class="produk__title"
+      data-testid="produk-title"
+    >
+      Daftar Produk
+    </h1>
+    <div
+      class="produk__content"
+      data-testid="produk-content"
+    >
+      <div
+        class="produk__content__skeleton"
+        data-testid="produk-skeleton"
+      >
+        <div
+          class="produk__content__skeleton__image"
+        />
+        <div
+          class="produk__content__skeleton__name"
+        />
+        <div
+          class="produk__content__skeleton__category"
+        />
+        <div
+          class="produk__content__skeleton__price"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
